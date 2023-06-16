@@ -1,0 +1,21 @@
+/** Microsoft Edge */
+@supports (-ms-ime-align: auto) {
+  .test{
+    background:red;
+  }
+
+/* Other browsers... */
+
+}
+/** Chrominum */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+  .test{
+    background:green;
+  }
+}
+
+
+
+<p class="test">
+  gdfdfd
+</p>
